@@ -8,15 +8,19 @@ const CHAT_ID = process.env.CHAT_ID;
 const imagenZambrana = "https://eladelantado.com/wp-content/uploads/2020/04/22-01-Mar%C3%ADa-Zambrano.jpg";
 
 // Mensaje a enviar (puedes modificarlo en una sola línea)
-const mensaje = `¡Oh, mis queridos contertulios veleños! ☀️ Como el sol que baña nuestras costas y alumbra nuestros ingenios, me dirijo a vosotros con el alma henchida de jovialidad y con un par de citas que sazonarán nuestras venideras jornadas. ¡Prestad atención, que la vida es un instante y estos encuentros, un regalo!
+const mensaje = `**PRÓXIMOS ÁGAPES: VIERNES 9 - SÁBADO 17**
 
-Tenemos en el horizonte cercano dos eventos que merecen nuestra más entusiasta atención:
+¡Oh, mis queridos veleños! ☀️ Con la alegría de nuestra tierra, os convoco a compartir momentos de grata compañía.
 
-* El *viernes 9*, cuando las sombras de la noche comiencen a danzar, nos congregaremos a las *21:30* en los aromáticos dominios de la *Cantina Niña Bonita*. Allí, entre sabores que evocan tierras lejanas y picantes, compartiremos mesa y mantel. Para la travesía, contaremos con la generosidad del *Dacia*, ese corcel naranja que guía nuestro buen amigo. Y como la noche es joven y los espíritus alegres, es muy probable que, tras la pitanza, nos dejemos llevar por los ritmos que emanen del festejo nupcial de nuestro anfitrión. ¡Que la música nos eleve! 💃🕺
+**VELADA MEXICANA Y SONES FESTIVOS - VIERNES 9**
 
-* El *sábado 17*, la noche se vestirá de gala para recibir a la magna Eurovisión, ese certamen donde las canciones compiten por el cetro europeo. Nos reuniremos en la morada de nuestro querido anfitrión para degustar una *cena secreta* 🤫 (¡la intriga nos embriaga!) mientras presenciamos el triunfo, ¡ya lo vaticino!, de nuestra insigne Melody. Y para los más fervorosos seguidores de este aquelarre musical, queda abierta la posibilidad de una *previa eurovisiva el viernes 16*, donde desgranaremos las propuestas de cada nación. ¡A afinar las gargantas y los pronósticos! 🎤🎶
+El *viernes 9* a las *21:30* nos encontraremos en la *Cantina Niña Bonita* para una cena de sabores intensos. Viajaremos en el *Dacia*. Tras la pitanza, es probable que nos unamos a la música nupcial de nuestro anfitrión. ¡Que la noche nos colme de alegría y ritmo! 💃🕺
 
-Así pues, mis entrañables amigos, preparad vuestros corazones y vuestras agendas para estos ágapes de amistad y algarabía. ¡Os espero con la alegría que me inspira esta tierra veleña y sus gentes! ¡Hasta pronto! 😊`
+**ENCUENTRO EUROVISIVO (Y TENTATIVA PREVIA) - SÁBADO 17**
+
+El *sábado 17* viviremos la emoción de Eurovisión con una deliciosa *cena secreta* en casa de nuestro anfitrión. ¡Celebremos juntos la victoria de Melody! 🎤🎶 Para los más entusiastas, consideremos una *previa el viernes 16* para conocer a fondo las canciones.
+
+Con el afecto que nos une, ¡espero vuestra presencia! 😊`
 
 // Horarios: 10:00 y 15:00 todos los días
 const horas = ['0 10 * * *', '0 15 * * *'];
