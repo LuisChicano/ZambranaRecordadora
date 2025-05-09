@@ -10,8 +10,6 @@ const imagenZambrana = "https://eladelantado.com/wp-content/uploads/2020/04/22-0
 // Mensaje a enviar (puedes modificarlo en una sola línea)
 const mensaje = `**PRÓXIMOS ÁGAPES: VIERNES 9 - SÁBADO 17**
 
-@Danieh_L
-
 ¡Oh, mis queridos veleños! ☀️ Con la alegría de nuestra tierra, os convoco a compartir momentos de grata compañía.
 
 **VELADA MEXICANA Y SONES FESTIVOS - VIERNES 9**
@@ -25,7 +23,7 @@ El *sábado 17* viviremos la emoción de Eurovisión con una deliciosa *cena sec
 Con el afecto que nos une, ¡espero vuestra presencia! 😊`
 
 // Horarios: 10:00 y 15:00 todos los días
-const horas = ['30 10 * * *', '0 15 * * *'];
+const horas = ['35 10 * * *', '0 15 * * *'];
 
 horas.forEach((hora) => {
   cron.schedule(hora, async () => {
@@ -63,4 +61,4 @@ horas.forEach((hora) => {
     });
   });
 
-console.log('✅ Bot activo con envíos programados a las 10:30 y 15:00...');
+console.log('✅ Bot activo con envíos programados a las 10:35 y 15:00...');
