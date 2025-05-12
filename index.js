@@ -8,22 +8,25 @@ const CHAT_ID = process.env.CHAT_ID;
 const imagenZambrana = "https://eladelantado.com/wp-content/uploads/2020/04/22-01-Mar%C3%ADa-Zambrano.jpg";
 
 // Mensaje a enviar (puedes modificarlo en una sola línea)
-const mensaje = `**PRÓXIMOS ÁGAPES: VIERNES 9 - SÁBADO 17**
+const mensaje = `
+**PRÓXIMOS ÁGAPES: SÁBADO 17**
 
-¡Oh, mis queridos veleños! ☀️ Con la alegría de nuestra tierra, os convoco a compartir momentos de grata compañía.
+*¡Oh, dilectos contertulios de mi alma veleña!* 🌟
 
-**VELADA MEXICANA Y SONES FESTIVOS - VIERNES 9**
+Con el corazón henchido de gratitud, aún resuenan en mis oídos las alegres notas 🎶 y los sabrosos manjares 🌮 de nuestra reciente velada mexicana, aderezada con los ritmos nupciales 💃🕺 que nos hicieron levitar sobre la misma Axarquía. ¡Gracias por compartir tan gratos momentos! 😊
 
-El *viernes 9* a las *21:30* nos encontraremos en la *Cantina Niña Bonita* para una cena de sabores intensos. Viajaremos en el *Dacia*. Tras la pitanza, es probable que nos unamos a la música nupcial de nuestro anfitrión. ¡Que la noche nos colme de alegría y ritmo! 💃🕺
+**SÁBADO 17**
 
-**ENCUENTRO EUROVISIVO (Y TENTATIVA PREVIA) - SÁBADO 17**
+*EUROVISIÓN: LA NOCHE DE MELODY* 🎤
+¡Atención, espíritus inquietos y melómanos empedernidos! El **sábado 17**, la noche se vestirá de lentejuelas ✨ y vibrantes melodías 🎵 con la llegada del magno festival de Eurovisión. Nos congregaremos en la morada secreta de nuestro querido "gordo" 🏡 para degustar una cena que, como los designios del azar, permanece envuelta en misterio hasta el último instante. Y, ¡oh, dulce esperanza!, nuestros corazones palpitarán al unísono esperando el triunfo ineludible de nuestra insigne Melody 👑.
 
-El *sábado 17* viviremos la emoción de Eurovisión con una deliciosa *cena secreta* en casa de nuestro anfitrión. ¡Celebremos juntos la victoria de Melody! 🎤🎶 Para los más entusiastas, consideremos una *previa el viernes 16* para conocer a fondo las canciones.
+¿Acaso hay almas previsoras que deseen calentar motores 🔥 y escudriñar las propuestas musicales de las naciones contendientes? ¡La víspera del certamen queda abierta a un encuentro preliminar para deleitarnos con un repaso de tan singulares partituras! 🎼 Que cada cual alce su voz si desea analizar la previa de tal magno simposio musical.
 
-Con el afecto que nos une, ¡espero vuestra presencia! 😊`
+¡Os espero con la ilusión de un niño ante una noche estrellada 🌠 en nuestra amada Vélez! ❤️
+`
 
 // Horarios: 10:00 y 15:00 todos los días
-const horas = ['35 10 * * *', '0 15 * * *'];
+const horas = ['30 10 * * *', '0 15 * * *'];
 
 horas.forEach((hora) => {
   cron.schedule(hora, async () => {
@@ -61,4 +64,4 @@ horas.forEach((hora) => {
     });
   });
 
-console.log('✅ Bot activo con envíos programados a las 10:35 y 15:00...');
+console.log('✅ Bot activo con envíos programados a las 10:30 y 15:00...');
