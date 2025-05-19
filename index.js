@@ -9,23 +9,23 @@ const imagenZambrana = "https://eladelantado.com/wp-content/uploads/2020/04/22-0
 
 // Mensaje a enviar (puedes modificarlo en una sola línea)
 const mensaje = `
-**PRÓXIMOS ÁGAPES: SÁBADO 17 - SÁBADO 24**
+**PRÓXIMOS ÁGAPES: SÁBADO 24 - VIERNES 6 DE JUNIO**
 
-*¡Oh, dilectos contertulios de mi alma veleña!* 🌟
+¡Ay, dilectos contertulios veleños! 👋 Con el alma aún algo mustia tras el reciente certamen eurovisivo, donde nuestra insigne Melody no obtuvo el reconocimiento que su talento merecía 😔, os saludo hoy. Permítanme, cual anfitriona agradecida y con el espíritu aún danzando, aunque a un ritmo más pausado, al son de los aconteceres, expresar mi más sincero reconocimiento por vuestra asistencia a la reciente velada. ¡Qué noche de emociones, de cánticos y de banderas ondeantes! Solo lamento si la contundencia y el fuego de nuestra cena mexicana 🌶️ provocaron alguna que otra melodía intestinal fuera de tono. ¡Ay, el picante, tan nuestro y a veces tan revoltoso! 😂
 
-Con el corazón henchido de gratitud, aún resuenan en mis oídos las alegres notas 🎶 y los sabrosos manjares 🌮 de nuestra reciente velada mexicana, aderezada con los ritmos nupciales 💃🕺 que nos hicieron levitar sobre la misma Axarquía. ¡Gracias por compartir tan gratos momentos! 😊
+SÁBADO 24 - CUMPLEAÑOS DE JESÚS 🎂
 
-*SÁBADO 17 - EUROVISIÓN: LA NOCHE DE MELODY* 🎤
+Con la esperanza de que la alegría retorne pronto a nuestros corazones eurovisivos, permitidme recordaros nuestro próximo encuentro: la celebración del natalicio de nuestro querido Jesús. El 24 de mayo, la fortuna nos congregará nuevamente para festejar su existencia, previsiblemente con viandas más suaves para evitar futuras sinfonías estomacales. ¡No faltéis a este ágape de la amistad! 🫂
 
-¡Atención, espíritus inquietos y melómanos empedernidos! El *sábado 17*, la noche se vestirá de lentejuelas ✨ y vibrantes melodías 🎵 con la llegada del magno festival de Eurovisión. Nos congregaremos en la morada secreta de nuestro querido "gordo" 🏡 para degustar una cena que, como los designios del azar, permanece envuelta en misterio hasta el último instante. Y, ¡oh, dulce esperanza!, nuestros corazones palpitarán al unísono esperando el triunfo ineludible de nuestra insigne Melody 👑.
+VIERNES 6 DE JUNIO - FIN DE SEMANA DE HOMBRES EN MUERTO REAL 🏞️
 
-¿Acaso hay almas previsoras que deseen calentar motores 🔥 y escudriñar las propuestas musicales de las naciones contendientes? ¡La víspera del certamen queda abierta a un encuentro preliminar para deleitarnos con un repaso de tan singulares partituras! 🎼 Que cada cual alce su voz si desea analizar la previa de tal magno simposio musical.
+Y ahora, he de anunciar una nueva aventura, un retiro varonil de esos que fortalecen el espíritu y la camaradería. Los aguerridos varones de nuestra querida Vélez-Málaga 🚶‍♂️ emprenderán camino hacia las gaditanas tierras de Marín el viernes 6 de junio, para disfrutar de un fin de semana en la augusta morada de Muerto Real. Allí, entre risas y buena compañía masculina 🍻, tendremos el privilegio de presenciar en directo el magno evento del Summer Game Fest 🎮. ¡Una cita ineludible para los amantes de los mundos virtuales y el buen yantar!
 
-*SÁBADO 24 - ¡HONOR Y ALBOROZO POR NUESTRO CABO JESÚS!* 🎂🎉
+Espero fervientemente contar con vuestra presencia en estos próximos ágapes, donde la amistad, la conversación y el espíritu veleño serán, como siempre, los protagonistas. ✨
 
-El *sábado 24*, la tarde se engalanará con los colores de la alegría para celebrar el natalicio de nuestro querido Jesús, baluarte de la ley y el orden en nuestra tierra. Pero la dicha se duplica, pues festejaremos con orgullo su merecido ascenso a Cabo de la Guardia Civil. Nos reuniremos para compartir una deliciosa merienda 🍰🍇 y colmar de parabienes a este espíritu entrañable y ahora, ¡con más galones! 👮‍♂️ ¡Que las risas, los buenos deseos y el eco de su nuevo rango inunden este feliz encuentro! 🥳
+Con el afecto de siempre desde mi querida Vélez-Málaga, me despido hasta nuestros próximos encuentros.
 
-¡Os espero con la ilusión de un niño ante una noche estrellada 🌠 en nuestra amada Vélez! ❤️
+María Zambrano.
 `
 
 // Horarios: 10:00 y 15:00 todos los días
