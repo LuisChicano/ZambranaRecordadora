@@ -9,27 +9,27 @@ const imagenZambrana = "https://eladelantado.com/wp-content/uploads/2020/04/22-0
 
 // Mensaje a enviar (puedes modificarlo en una sola línea)
 const mensaje = `
-**PRÓXIMOS ÁGAPES: SÁBADO 24 - VIERNES 6 DE JUNIO**
+**PRÓXIMOS ÁGAPES: VIERNES 6 - ONVRES EN MUERTO REAL**
 
-¡Ay, dilectos contertulios veleños! 👋 Con el alma aún algo mustia tras el reciente certamen eurovisivo, donde nuestra insigne Melody no obtuvo el reconocimiento que su talento merecía 😔, os saludo hoy. Permítanme, cual anfitriona agradecida y con el espíritu aún danzando, aunque a un ritmo más pausado, al son de los aconteceres, expresar mi más sincero reconocimiento por vuestra asistencia a la reciente velada. ¡Qué noche de emociones, de cánticos y de banderas ondeantes! Solo lamento si la contundencia y el fuego de nuestra cena mexicana 🌶️ provocaron alguna que otra melodía intestinal fuera de tono. ¡Ay, el picante, tan nuestro y a veces tan revoltoso! 😂
+¡Ay, dilectos contertulios veleños! 👋
 
-SÁBADO 24 - CUMPLEAÑOS DE JESÚS 🎂
+¡Qué grato recuerdo el cumpleaños de nuestro querido Jesús! 🎂 Fue una velada espléndida, donde la amistad y la alegría fluyeron con la misma dulzura que los innumerables postres y las deliciosas pizzas que generosamente compartimos. ¡Mi agradecimiento a todos por hacer de esa noche un verdadero festín para el alma y el paladar! 🍕🍰
 
-Con la esperanza de que la alegría retorne pronto a nuestros corazones eurovisivos, permitidme recordaros nuestro próximo encuentro: la celebración del natalicio de nuestro querido Jesús. El 24 de mayo, la fortuna nos congregará nuevamente para festejar su existencia, previsiblemente con viandas más suaves para evitar futuras sinfonías estomacales. ¡No faltéis a este ágape de la amistad! 🫂
+**VIERNES 6 DE JUNIO FIN DE SEMANA DE ONVRES EN MUERTO REAL** 🏞️
 
-VIERNES 6 DE JUNIO - FIN DE SEMANA DE HOMBRES EN MUERTO REAL 🏞️
+Y ahora, atención, mis intrépidos varones veleños, porque la aventura nos aguarda esta misma semana. El viernes 6 de junio se alza majestuoso en el horizonte, marcando el inicio de nuestra expedición hacia las gaditanas tierras de Marín. Un fin de semana de hombres, en la augusta morada de Muerto Real, donde la camaradería masculina alcanzará su cénit. 🚶‍♂️🍻
 
-Y ahora, he de anunciar una nueva aventura, un retiro varonil de esos que fortalecen el espíritu y la camaradería. Los aguerridos varones de nuestra querida Vélez-Málaga 🚶‍♂️ emprenderán camino hacia las gaditanas tierras de Marín el viernes 6 de junio, para disfrutar de un fin de semana en la augusta morada de Muerto Real. Allí, entre risas y buena compañía masculina 🍻, tendremos el privilegio de presenciar en directo el magno evento del Summer Game Fest 🎮. ¡Una cita ineludible para los amantes de los mundos virtuales y el buen yantar!
+Imaginad, si sois capaces, el ambiente de expectación, las risas cómplices y, por supuesto, la emoción de presenciar en directo el magno evento del **Summer Game Fest** 🎮. ¡Será una cita ineludible para los amantes de los mundos virtuales, las tertulias profundas y el buen yantar que siempre acompaña nuestras gestas! Preparad vuestros espíritus para una experiencia que, sin duda, dejará una huella imborrable en vuestras memorias. ¡La comitiva veleña se dispone a conquistar los dominios gaditanos!
 
 Espero fervientemente contar con vuestra presencia en estos próximos ágapes, donde la amistad, la conversación y el espíritu veleño serán, como siempre, los protagonistas. ✨
 
 Con el afecto de siempre desde mi querida Vélez-Málaga, me despido hasta nuestros próximos encuentros.
 
-María Zambrano.
+**María Zambrano.**
 `
 
 // Horarios: 10:00 y 15:00 todos los días
-const horas = ['30 10 * * *', '0 15 * * *'];
+const horas = ['15 11 * * *', '0 15 * * *'];
 
 horas.forEach((hora) => {
   cron.schedule(hora, async () => {
